@@ -210,7 +210,7 @@ def sas_cross_encoder(**kwargs):
     if model_name_or_path not in sas_cross_encoder.loaded_models:
         sas_cross_encoder.loaded_models[model_name_or_path] = CrossEncoder(model_name_or_path)
     sas_model = sas_cross_encoder.loaded_models[model_name_or_path]
-    return model.predict(kwargs["predictions"]+kwargs["references"])
+    return sas_model.predict(kwargs["predictions"]+kwargs["references"])
     
 
 @register_metric(
