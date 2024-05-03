@@ -9,7 +9,7 @@ import numpy as np
 import sacrebleu
 import sklearn.metrics
 
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, CrossEncoder
 
 from lm_eval.api.registry import register_aggregation, register_metric
 
@@ -208,7 +208,7 @@ def sas_cross_encoder(**kwargs):
         sas_cross_encoder.loaded_models = {}
     model_name_or_path = kwargs["model_name_or_path"]
     if model_name_or_path not in sas_encoder.loaded_models:
-        sas_cross_encoder.loaded_models[model_name_or_path] = SentenceTransformer(model_name_or_path)
+        sas_cross_encoder.loaded_models[model_name_or_path] = CrossEncoder(model_name_or_path)
     sas_model = sas_cross_encoder.loaded_models[model_name_or_path]
     return model.predict(kwargs["predictions"]+kwargs["references"])
     
