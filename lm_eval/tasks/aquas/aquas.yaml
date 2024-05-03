@@ -10,5 +10,9 @@ metric_list:
     model_name_or_path: "BAAI/bge-m3"
     aggregation: mean
     higher_is_better: true
+  - metric: sas_cross_encoder
+    model_name_or_path: "cross-encoder/stsb-roberta-base"
+    aggregation: mean
+    higher_is_better: true
 metadata:
   version: 0
