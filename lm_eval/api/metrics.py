@@ -204,10 +204,10 @@ def sas_encoder(**kwargs):
     aggregation="mean",
 )
 def sas_cross_encoder(**kwargs):
-    if "loaded_models" not in sas_encoder.__dict__:
+    if "loaded_models" not in sas_cross_encoder.__dict__:
         sas_cross_encoder.loaded_models = {}
     model_name_or_path = kwargs["model_name_or_path"]
-    if model_name_or_path not in sas_encoder.loaded_models:
+    if model_name_or_path not in sas_cross_encoder.loaded_models:
         sas_cross_encoder.loaded_models[model_name_or_path] = CrossEncoder(model_name_or_path)
     sas_model = sas_cross_encoder.loaded_models[model_name_or_path]
     return model.predict(kwargs["predictions"]+kwargs["references"])
