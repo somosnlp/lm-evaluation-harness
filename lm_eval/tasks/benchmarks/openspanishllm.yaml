@@ -1,0 +1,4 @@
+group: openspanishllm
+group_alias: Open Spanish LLM Leaderboard
+task:
+  - task: aquas
