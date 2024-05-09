@@ -4,34 +4,38 @@
 
 Title: `Abstractive Question Answering in Spanish (AQuAS)`
 
-Abstract: `link to paper PDF or arXiv abstract goes here`
+AQuAS es un dataset de alta calidad realizado de forma manual por dos lingüistas computacionales con el fin de evaluar modelos de lenguaje en la tarea de Question-Answering Abstractivo en español.
 
-`Short description of paper / benchmark goes here:`
-
-Homepage: `homepage to the benchmark's website goes here, if applicable`
+Homepage: https://huggingface.co/datasets/IIC/AQuAS
 
 
 ### Citation
 
 ```
-BibTeX-formatted citation goes here
+@misc {Instituto de Ingeniería del Conocimiento (IIC),
+    author       = { {Instituto de Ingeniería del Conocimiento} },
+    title        = { Abstractive Question-Answering in Spanish (AQuAS) Dataset },
+    year         = 2024,
+    url          = { https://huggingface.co/datasets/IIC/AQuAS },
+    doi          = { 10.57967/hf/2043 },
+    publisher    = { Hugging Face }
+}
 ```
 
 ### Groups and Tasks
 
 #### Groups
 
-* `group_name`: `Short description`
+* Open Spanish LLM Leaderboard
 
 #### Tasks
 
-* `task_name`: `1-sentence description of what this particular task does`
-* `task_name2`: ...
+* `aquas`
 
 ### Checklist
 
 For adding novel benchmarks/datasets to the library:
-* [ ] Is the task an existing benchmark in the literature?
+* [x] Is the task an existing benchmark in the literature?
   * [ ] Have you referenced the original paper that introduced the task?
   * [ ] If yes, does the original paper provide a reference implementation? If so, have you checked against the reference implementation and documented how to run such a test?
 
