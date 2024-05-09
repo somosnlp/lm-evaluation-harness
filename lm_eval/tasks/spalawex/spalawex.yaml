@@ -1,0 +1,17 @@
+task: spalawex
+dataset_path: LenguajeNaturalAI/SpaLawEx
+description: "The following are multiple choice questions (with answers) from Spanish law school access exams.\n\n"
+output_type: multiple_choice
+doc_to_text: "Pregunta: {{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nRespuesta:"
+doc_to_choice: ["A", "B", "C", "D"]
+doc_to_target: answer
+should_decontaminate: false
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
