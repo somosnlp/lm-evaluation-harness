@@ -1,7 +1,5 @@
 task: aquas
 dataset_path: IIC/AQuAS
-training_split: null
-validation_split: test
 test_split: test
 doc_to_text: "Responde a la pregunta utilizando únicamente el contexto proporcionado.\n\nContexto:\n{{context}}\n\nPregunta:\n{{question}}\n\nRespuesta:\n"
 doc_to_target: "{{answer}}"
