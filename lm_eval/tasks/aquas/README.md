@@ -4,7 +4,9 @@
 
 Title: `Abstractive Question Answering in Spanish (AQuAS)`
 
-AQuAS es un dataset de alta calidad realizado de forma manual por dos lingüistas computacionales con el fin de evaluar modelos de lenguaje en la tarea de Question-Answering Abstractivo en español.
+`EN:` AQuAS is a high-quality dataset manually created by two computational linguists with the objective of evaluating language models on the Abstractive Question-Answering task in Spanish.
+
+`ES:` AQuAS es un dataset de alta calidad realizado de forma manual por dos lingüistas computacionales con el fin de evaluar modelos de lenguaje en la tarea de Question-Answering Abstractivo en español.
 
 Homepage: https://huggingface.co/datasets/IIC/AQuAS
 
