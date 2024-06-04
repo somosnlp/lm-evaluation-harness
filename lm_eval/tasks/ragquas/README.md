@@ -1,4 +1,4 @@
-# AQuAS
+# RagQuAS
 
 ### Paper
 
