@@ -2,11 +2,11 @@
 
 ### Paper
 
-Title: `Retrieval-Augmented-Generation and Queston-Answering in Spanish (RagQuAS) Dataset `
+Title: `Retrieval-Augmented-Generation and Queston-Answering in Spanish (RagQuAS) Dataset`
 
-`EN:` RagQuAS is a high quality dataset with examples in a large number of domains: Hobbies, Linguistics, Pets, Health, astronomy, customer service, cars, daily life, documentation, energy, skiing, scams, gastronomy, hobbies, languages, games, language, manicure, music, skating, first aid, prescription, recycling, claims, insurance, tennis, transport, tourism, veterinary, travel, yoga.
+`EN:` RagQuAS is a high-quality dataset produced manually by two computational linguists. It is used to evaluate complete RAG systems and language models in the task of Abstractive Question-Answering in Spanish. It has examples in a large number of domains: hobbies, linguistics, pets, health, astronomy, customer service, cars, daily life, documentation, energy, skiing, scams, gastronomy, hobbies, languages, games, language, manicure, music, skating, first aid, prescription, recycling, claims, insurance, tennis, transport, tourism, veterinary, travel and yoga.
 
-`ES:` RagQuAS es un dataset de alta calidad con ejemplos en una gran cantidad de dominios: Hobbies, Lingüística, Mascotas, Salud, astronomía, atención al cliente, coches, cotidiano, documentación, energía, esquí, estafas, gastronomía, hobbies, idiomas, juegos, lenguaje, manicura, música, patinaje, primeros auxilios, receta, reciclaje, reclamaciones, seguros, tenis, transporte, turismo, veterinaria, viajes, yoga.
+`ES:` RagQuAS es un dataset de alta calidad realizado de forma manual por dos lingüistas computacionales. Sirve para evaluar sistemas completos de RAG y modelos de lenguaje en la tarea de Question-Answering Abstractivo en español. Cuenta con ejemplos en una gran cantidad de dominios: hobbies, lingüística, mascotas, salud, astronomía, atención al cliente, coches, cotidiano, documentación, energía, esquí, estafas, gastronomía, hobbies, idiomas, juegos, lenguaje, manicura, música, patinaje, primeros auxilios, receta, reciclaje, reclamaciones, seguros, tenis, transporte, turismo, veterinaria, viajes y yoga.
 
 Homepage: https://huggingface.co/datasets/IIC/RagQuAS
 
