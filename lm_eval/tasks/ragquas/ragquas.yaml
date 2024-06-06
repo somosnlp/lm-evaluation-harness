@@ -1,4 +1,4 @@
-task: aquas
+task: ragquas
 dataset_path: IIC/RagQuAS
 test_split: test
 doc_to_text: !function utils.doc_to_text
