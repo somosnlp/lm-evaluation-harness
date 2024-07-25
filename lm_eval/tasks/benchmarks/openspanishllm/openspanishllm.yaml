@@ -1,4 +1,54 @@
 group: openspanishllm
 group_alias: Open Spanish LLM Leaderboard
 task:
-  - task: aquas
+  # Spanish
+  - aquas
+  - ragquas
+  - teleia
+  - noticia
+  # Catalan
+  - copa_ca
+  - xstorycloze_ca
+  - catcola
+  - mgsm_direct_ca
+  - teca
+  - wnli_ca
+  - xnli_ca
+  - parafraseja
+  - paws_ca
+  #- arc_ca
+  - catalanqa
+  - coqcat
+  - openbookqa_ca
+  - piqa_ca
+  - siqa_ca
+  - xquad_ca
+  #- belebele_cat_Latn
+  - cabreu
+  #- flores_ca
+  #- phrases_ca Sin implementar
+  #- veritasqa_ca Sin implementar
+  # Basque
+  - xcopa_eu
+  - xstorycloze_eu
+  - mgsm_direct_eu
+  #- qnli_eu Sin implementar
+  - wnli_eu
+  - xnli_eu
+  - eus_exams
+  - eus_proficiency
+  - eus_trivia
+  #- belebele_eus_Latn
+  - eus_reading
+  #- flores_eu
+  # Galician
+  - galcola
+  - mgsm_direct_gl
+  - parafrases_gl
+  - paws_gl
+  - openbookqa_gl
+  #- belebele_glg_Latn
+  - summarization_gl
+  #- flores_gl
+  #- veritasqa_gl Sin implementar
+  - truthfulqa_gl
