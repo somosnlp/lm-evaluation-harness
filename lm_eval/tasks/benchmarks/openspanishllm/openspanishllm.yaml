@@ -1,54 +1,58 @@
 group: openspanishllm
 group_alias: Open Spanish LLM Leaderboard
 task:
-  # Spanish
   - aquas
-  - ragquas
-  - teleia
-  - noticia
-  # Catalan
-  - copa_ca
-  - xstorycloze_ca
-  - catcola
-  - mgsm_direct_ca
-  - teca
-  - wnli_ca
-  - xnli_ca
-  - parafraseja
-  - paws_ca
-  #- arc_ca
-  - catalanqa
-  - coqcat
-  - openbookqa_ca
-  - piqa_ca
-  - siqa_ca
-  - xquad_ca
-  #- belebele_cat_Latn
+  - arc_ca
+  - belebele_cat_Latn
+  - belebele_eus_Latn
+  - belebele_glg_Latn
+  - belebele_spa_Latn
   - cabreu
-  #- flores_ca
-  #- phrases_ca Sin implementar
-  #- veritasqa_ca Sin implementar
-  # Basque
-  - xcopa_eu
-  - xstorycloze_eu
-  - mgsm_direct_eu
-  #- qnli_eu Sin implementar
-  - wnli_eu
-  - xnli_eu
-  - eus_exams
+  - catalanqa
+  - catcola
+  - coqcat
+  - copa_ca
+  - escola
+  - eus_exams_eu
   - eus_proficiency
-  - eus_trivia
-  #- belebele_eus_Latn
   - eus_reading
-  #- flores_eu
-  # Galician
+  - eus_trivia
+  - flores_ca
+  - flores_es
+  - flores_eu
+  - flores_gl
   - galcola
+  - mgsm_direct_ca
+  - mgsm_direct_es
+  - mgsm_direct_eu
   - mgsm_direct_gl
-  - parafrases_gl
-  - paws_gl
+  - noticia
+  - openbookqa_ca
   - openbookqa_gl
-  #- belebele_glg_Latn
+  - parafraseja
+  - parafrases_gl
+  - paws_ca
+  - paws_es
+  - paws_gl
+  - phrases_va
+  - phrases_es
+  - piqa_ca
+  - ragquas
+  - siqa_ca
   - summarization_gl
-  #- flores_gl
-  #- veritasqa_gl Sin implementar
+  - teca
+  - teleia
   - truthfulqa_gl
+  - wnli_ca
+  - wnli_es
+  - wnli_eu
+  - xcopa_eu
+  - xquad_ca
+  - xquad_es
+  - xstorycloze_ca
+  - xstorycloze_es
+  - xstorycloze_eu
+  - xnli_ca
+  - xnli_es
+  - xnli_eu
+  - xlsum_es
