@@ -1,3 +1,0 @@
-include: teleia_pce_v1.yaml
-task: teleia_siele_v1
-dataset_name: siele
