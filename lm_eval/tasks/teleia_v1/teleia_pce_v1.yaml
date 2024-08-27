@@ -1,6 +1,6 @@
 group:
-  - teleia
-task: teleia_pce
+  - teleia_v1
+task: teleia_pce_v1
 dataset_path: gonzmart/teleia
 dataset_name: pce
 output_type: multiple_choice
