@@ -1,10 +1,10 @@
-# Open Spanish LLM Leaderboard
+# Leaderboard 600M
 
 ### About
 
-Homepage: https://huggingface.co/spaces/somosnlp/open-spanish-llm-leaderboard
+Homepage: TODO
 
-A benchmark combining tasks to evaluate Spanish generative LLMs.
+A benchmark combining tasks to evaluate generative LLMs in the languages of LATAM and Spain, spoken in total by 600M people.
 
 ### Tasks
 
@@ -17,7 +17,7 @@ To evaluate a model on this benchmark run:
 ```bash
 lm_eval --model --model=hf \
     --model_args "pretrained=<your_model>,use_accelerate=True,revision=<your_model_revision>" \
-    --tasks openspanishllm \
+    --tasks leaderboard600m \
     --batch_size 1
 ```
 

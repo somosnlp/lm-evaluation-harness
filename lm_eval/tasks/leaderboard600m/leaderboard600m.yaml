@@ -1,5 +1,5 @@
-group: openspanishllm
-group_alias: Open Spanish LLM Leaderboard
+group: leaderboard600m
+group_alias: Leaderboard 600M
 task:
   - aquas
   - arc_ca
