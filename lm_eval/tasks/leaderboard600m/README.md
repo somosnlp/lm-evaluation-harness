@@ -4,7 +4,7 @@
 
 Homepage: TODO
 
-A benchmark combining tasks to evaluate generative LLMs in the languages of LATAM and Spain, spoken in total by 600M people.
+A benchmark combining tasks to evaluate generative LLMs in the languages of LATAM and Spain (i.e. Spanish, Catalan, Galician), spoken in total by 600M people.
 
 ### Tasks
 

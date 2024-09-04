@@ -56,3 +56,5 @@ task:
   - xnli_es
   - xnli_eu
   - xlsum_es
+metadata:
+  version: 1.0
