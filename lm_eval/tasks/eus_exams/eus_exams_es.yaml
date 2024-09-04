@@ -1,0 +1,44 @@
+group: eus_exams_es
+task:
+  - eus_exams_es_ejadministrativo
+  - eus_exams_es_ejauxiliar
+  - eus_exams_es_ejtecnico
+  - eus_exams_es_ejsubalterno
+  - eus_exams_es_opeayuntamientovitoria
+  - eus_exams_es_opebilbao
+  - eus_exams_es_opeehuadmin
+  - eus_exams_es_opeehuaux
+  - eus_exams_es_opeehubiblio
+  - eus_exams_es_opeehuderecho
+  - eus_exams_es_opeehueconomicas
+  - eus_exams_es_opeehuempresariales
+  - eus_exams_es_opeehusubalterno
+  - eus_exams_es_opeehutecnicob
+  - eus_exams_es_opeehutecnico
+  - eus_exams_es_opeosakiadmin
+  - eus_exams_es_opeosakiaux
+  - eus_exams_es_opeosakiauxenf
+  - eus_exams_es_opeosakicelador
+  - eus_exams_es_opeosakienf
+  - eus_exams_es_opeosakijuridico
+  - eus_exams_es_opeosakioperario
+  - eus_exams_es_opeosakitecnico
+  - eus_exams_es_opeosakivarios
+  - eus_exams_es_osakidetza1c
+  - eus_exams_es_osakidetza2c
+  - eus_exams_es_osakidetza3c
+  - eus_exams_es_osakidetza4c
+  - eus_exams_es_osakidetza5c
+  - eus_exams_es_osakidetza6c
+  - eus_exams_es_osakidetza7c
+  - eus_exams_es_osakidetza8c
+  - eus_exams_es_osakidetza9c
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: True
+metadata:
+  version: 1.0

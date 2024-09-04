@@ -1,0 +1,40 @@
+group: eus_exams_eu
+task:
+  - eus_exams_eu_ejadministrari
+  - eus_exams_eu_ejlaguntza
+  - eus_exams_eu_ejlaguntzaile
+  - eus_exams_eu_ejteknikari
+  - eus_exams_eu_opegasteizkoudala
+  - eus_exams_eu_opebilbaoeu
+  - eus_exams_eu_opeehuadmineu
+  - eus_exams_eu_opeehuauxeu
+  - eus_exams_eu_opeehubiblioeu
+  - eus_exams_eu_opeehuderechoeu
+  - eus_exams_eu_opeehueconomicaseu
+  - eus_exams_eu_opeehuempresarialeseu
+  - eus_exams_eu_opeehusubalternoeu
+  - eus_exams_eu_opeehuteknikarib
+  - eus_exams_eu_opeehutecnicoeu
+  - eus_exams_eu_opeosakiadmineu
+  - eus_exams_eu_opeosakiauxeu
+  - eus_exams_eu_opeosakiauxenfeu
+  - eus_exams_eu_opeosakiceladoreu
+  - eus_exams_eu_opeosakienfeu
+  - eus_exams_eu_opeosakioperarioeu
+  - eus_exams_eu_opeosakitecnicoeu
+  - eus_exams_eu_opeosakivarioseu
+  - eus_exams_eu_osakidetza1e
+  - eus_exams_eu_osakidetza2e
+  - eus_exams_eu_osakidetza3e
+  - eus_exams_eu_osakidetza5e
+  - eus_exams_eu_osakidetza6e
+  - eus_exams_eu_osakidetza7e
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: True
+metadata:
+  version: 1.0
