@@ -10,5 +10,7 @@ doc_to_target: label
 doc_to_choice: ["Falso", "Verdadero"]
 metric_list:
   - metric: acc
+dataset_kwargs:
+  trust_remote_code: true
 metadata:
   version: 1.0
