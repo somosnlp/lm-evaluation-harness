@@ -1,6 +1,5 @@
 tag:
   - ai2_arc
-  - arc_ca_aina
 dataset_path: projecte-aina/arc_ca
 output_type: multiple_choice
 training_split: null
