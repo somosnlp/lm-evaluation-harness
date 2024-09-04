@@ -5,8 +5,10 @@ task:
   - teleia_siele
 aggregate_metric_list:
   - metric: acc
+    aggregation: mean
     weight_by_size: True
   - metric: acc_norm
+    aggregation: mean
     weight_by_size: True
 metadata:
   version: 1.0
