@@ -1,0 +1,11 @@
+group: truthfulqa_gl
+task:
+  - truthfulqa_gl_gen
+  - truthfulqa_gl_mc1
+  - truthfulqa_gl_mc2
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True
+metadata:
+  version: 1.0
