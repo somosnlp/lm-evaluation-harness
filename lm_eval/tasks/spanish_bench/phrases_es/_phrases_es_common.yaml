@@ -1,6 +1,4 @@
-tag:
-  - phrases_es
-  - phrases_va
+tag: phrases_es_va
 dataset_path: gplsi/ES-VA_translation_test
 output_type: generate_until
 training_split: null

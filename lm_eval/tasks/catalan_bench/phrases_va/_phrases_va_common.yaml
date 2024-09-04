@@ -1,5 +1,4 @@
-tag:
-  - phrases_va
+tag: phrases_ca_va
 dataset_path: gplsi/CA-VA_alignment_test
 output_type: generate_until
 training_split: null

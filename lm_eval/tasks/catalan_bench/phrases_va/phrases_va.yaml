@@ -6,13 +6,13 @@ task:
   - phrases_es-va
 aggregate_metric_list:
   - metric: bleu
-    aggregation: bleu
+    aggregation: mean # only supported aggregation across groups' subtasks
     weight_by_size: True
   - metric: ter
-    aggregation: ter
+    aggregation: mean
     weight_by_size: True
   - metric: chrf
-    aggregation: chrf
+    aggregation: mean
     weight_by_size: True
 metadata:
   version: 1.0
