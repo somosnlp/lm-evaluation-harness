@@ -1,0 +1,18 @@
+group: phrases_va
+task:
+  - phrases_va-ca
+  - phrases_ca-va
+  - phrases_va-es
+  - phrases_es-va
+aggregate_metric_list:
+  - metric: bleu
+    aggregation: bleu
+    weight_by_size: True
+  - metric: ter
+    aggregation: ter
+    weight_by_size: True
+  - metric: chrf
+    aggregation: chrf
+    weight_by_size: True
+metadata:
+  version: 1.0
