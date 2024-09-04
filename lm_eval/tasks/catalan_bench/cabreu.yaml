@@ -5,7 +5,7 @@ task:
   - cabreu_extreme
 aggregate_metric_list:
   - metric: bleu
-    aggregation: bleu
+    aggregation: mean # only supported aggregation across groups' subtasks
     weight_by_size: True
 metadata:
   version: 1.0

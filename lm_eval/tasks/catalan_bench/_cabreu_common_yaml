@@ -1,5 +1,3 @@
-tag:
-  - cabreu
 dataset_path: projecte-aina/caBreu
 dataset_name: null
 output_type: generate_until
