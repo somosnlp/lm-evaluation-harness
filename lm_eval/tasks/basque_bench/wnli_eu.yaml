@@ -7,8 +7,9 @@ validation_split: validation
 test_split: null
 doc_to_text: "{{sentence1}}\nGaldera: {{sentence2}} Egia edo Gezurra?\nErantzuna:"
 doc_to_target: label
-doc_to_choice: ["Gezurra", "Egia"]
 metric_list:
   - metric: acc
+    aggregation: mean
+    higher_is_better: True
 metadata:
   version: 1.0

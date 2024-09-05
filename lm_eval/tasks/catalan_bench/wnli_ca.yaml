@@ -10,5 +10,9 @@ doc_to_target: label
 doc_to_choice: ["Fals", "Cert"]
 metric_list:
   - metric: acc
+    aggregation: mean
+    higher_is_better: True
+dataset_kwargs:
+  trust_remote_code: true
 metadata:
   version: 1.0
