@@ -3,10 +3,11 @@ group_alias: Leaderboard 600M
 task:
   - aquas
   - arc_ca
-  - belebele_cat_Latn
-  - belebele_eus_Latn
+  # - belebele_cat_Latn
+  # - belebele_eus_Latn
   - belebele_glg_Latn
-  - belebele_spa_Latn
+  # - belebele_spa_Latn
+  # - bertaqa
   - cabreu
   - catalanqa
   - catcola
@@ -43,8 +44,8 @@ task:
   - teca
   - teleia
   - truthfulqa_gl
-  - wnli_ca
-  - wnli_es
+  # - wnli_ca
+  # - wnli_es
   - wnli_eu
   - xcopa_eu
   - xquad_ca
