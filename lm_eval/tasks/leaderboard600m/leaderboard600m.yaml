@@ -45,7 +45,7 @@ task:
   - truthfulqa_gl
   # - wnli_ca
   # - wnli_es
-  - wnli_eu
+  # - wnli_eu
   - xcopa_eu
   - xquad_ca
   - xquad_es
