@@ -1,61 +1,61 @@
 group: leaderboard600m
 group_alias: Leaderboard 600M
 task:
-  - aquas
-  - arc_ca_aina
+  # - aquas
+  # - arc_ca_aina
   # - belebele_cat_Latn
   # - belebele_eus_Latn
-  - belebele_glg_Latn
+  # - belebele_glg_Latn
   # - belebele_spa_Latn
   # - bertaqa
   - cabreu
-  - catalanqa
-  - catcola
-  - coqcat
-  - copa_ca
-  - escola
+  #- catalanqa
+  #- catcola
+  #- coqcat
+  # - copa_ca
+  # - escola
   - eus_exams_eu
-  - eus_proficiency
-  - eus_reading
-  - eus_trivia
+  # - eus_proficiency
+  # - eus_reading
+  # - eus_trivia
   # - flores_ca
   # - flores_es
   # - flores_eu
   # - flores_gl
-  - galcola
-  - mgsm_direct_ca
-  - mgsm_direct_es
-  - mgsm_direct_eu
-  - mgsm_direct_gl
-  - noticia
-  - openbookqa_ca
-  - openbookqa_gl
-  - parafraseja
-  - parafrases_gl
-  - paws_ca
-  - paws_es
-  - paws_gl
-  - phrases_va
-  - piqa_ca
-  - ragquas
-  - siqa_ca
+  # - galcola
+  #- mgsm_direct_ca
+  #- mgsm_direct_es
+  # - mgsm_direct_eu
+  # - mgsm_direct_gl
+  #- noticia
+  #- openbookqa_ca
+  # - openbookqa_gl
+  # - parafraseja
+  # - parafrases_gl
+  # - paws_ca
+  # - paws_es
+  #- paws_gl
+  #- phrases_va
+  #- piqa_ca
+  #- ragquas
+  #-siqa_ca
   - summarization_gl
-  - teca
+  #- teca
   - teleia
-  - truthfulqa_gl
+  # - truthfulqa_gl
   # - wnli_ca
   # - wnli_es
   # - wnli_eu
-  - xcopa_eu
-  - xquad_ca
-  - xquad_es
-  - xstorycloze_ca
-  - xstorycloze_es
-  - xstorycloze_eu
-  - xnli_ca
-  - xnli_es
-  - xnli_eu
-  - xlsum_es
+  #- xcopa_eu
+  #- xquad_ca
+  # - xquad_es
+  # - xstorycloze_ca
+  # - xstorycloze_es
+  # - xstorycloze_eu
+  # - xnli_ca
+  # - xnli_es
+  # - xnli_eu
+  #  xlsum_es
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
