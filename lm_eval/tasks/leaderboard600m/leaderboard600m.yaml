@@ -2,7 +2,7 @@ group: leaderboard600m
 group_alias: Leaderboard 600M
 task:
   - aquas
-  - arc_ca
+  - arc_ca_aina
   # - belebele_cat_Latn
   # - belebele_eus_Latn
   - belebele_glg_Latn
