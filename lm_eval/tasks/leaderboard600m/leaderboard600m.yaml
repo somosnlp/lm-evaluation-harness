@@ -18,10 +18,10 @@ task:
   - eus_proficiency
   - eus_reading
   - eus_trivia
-  - flores_ca
-  - flores_es
-  - flores_eu
-  - flores_gl
+  # - flores_ca
+  # - flores_es
+  # - flores_eu
+  # - flores_gl
   - galcola
   - mgsm_direct_ca
   - mgsm_direct_es
