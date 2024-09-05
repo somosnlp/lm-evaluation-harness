@@ -55,7 +55,7 @@ task:
   - xnli_ca
   - xnli_es
   - xnli_eu
-  - xlsum_es
+  # - xlsum_es
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
