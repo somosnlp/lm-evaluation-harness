@@ -7,7 +7,9 @@ validation_split: validation
 test_split: test
 doc_to_text: "Testua: {{text}}\nGaldera: Nolako jarrera agertzen du aurreko testuak?\nErantzuna:"
 doc_to_target: label
-doc_to_choice: ['negatiboa', 'neutrala', 'positiboa']
+doc_to_choice: ["negatiboa", "neutrala", "positiboa"]
+dataset_kwargs:
+  trust_remote_code: true
 metric_list:
   - metric: f1
     aggregation: !function utils.micro_f1_score
