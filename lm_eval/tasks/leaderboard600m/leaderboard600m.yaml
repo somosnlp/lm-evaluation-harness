@@ -4,10 +4,10 @@ task:
   - aquas
   - arc_ca_aina
   - bec2016eu
-  - belebele_cat_Latn
-  - belebele_eus_Latn
+  # - belebele_cat_Latn
+  # - belebele_eus_Latn
   - belebele_glg_Latn
-  - belebele_spa_Latn
+  # - belebele_spa_Latn
   - bertaqa_eu
   - bhtc_v2
   - cabreu
@@ -21,10 +21,10 @@ task:
   - eus_proficiency
   - eus_reading
   - eus_trivia
-  - flores_ca
-  - flores_es
-  - flores_eu
-  - flores_gl
+  # - flores_ca
+  # - flores_es
+  # - flores_eu
+  # - flores_gl
   - galcola
   - mgsm_direct_ca
   - mgsm_direct_es
@@ -49,9 +49,9 @@ task:
   - truthfulqa_gl
   - vaxx_stance
   - wiceu
-  - wnli_ca
-  - wnli_es
-  - wnli_eu
+  # - wnli_ca
+  # - wnli_es
+  # - wnli_eu
   - xcopa_eu
   - xquad_ca
   - xquad_es
@@ -61,7 +61,7 @@ task:
   - xnli_ca
   - xnli_es
   - xnli_eu
-  - xlsum_es
+  # - xlsum_es
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
