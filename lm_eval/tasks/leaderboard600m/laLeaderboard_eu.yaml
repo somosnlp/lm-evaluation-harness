@@ -1,0 +1,24 @@
+group: laLeaderboard_eu
+tasks:
+  - bec2016eu
+  # - belebele_eus_Latn
+  - bertaqa_eu
+  - bhtc_v2
+  - epec_koref_bin
+  - eus_exams_eu
+  - eus_proficiency
+  - eus_reading
+  - eus_trivia
+  # - flores_eu
+  - mgsm_direct_eu
+  - qnlieu
+  - vaxx_stance
+  - wiceu
+  # - wnli_eu
+  - xcopa_eu
+  - xnli_eu
+  - xstorycloze_eu
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True

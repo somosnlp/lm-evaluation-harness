@@ -1,0 +1,15 @@
+group: laLeaderboard_gl
+tasks:
+  - belebele_glg_Latn
+  # - flores_gl
+  - galcola
+  - mgsm_direct_gl
+  - openbookqa_gl
+  - parafrases_gl
+  - paws_gl
+  - summarization_gl
+  - truthfulqa_gl
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True

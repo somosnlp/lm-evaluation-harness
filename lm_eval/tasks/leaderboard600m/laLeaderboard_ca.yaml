@@ -1,0 +1,26 @@
+group: laLeaderboard_ca
+tasks:
+  - arc_ca_aina
+  # - belebele_cat_Latn
+  - cabreu
+  - catalanqa
+  - catcola
+  - copa_ca
+  - coqcat
+  # - flores_ca
+  - mgsm_direct_ca
+  - openbookqa_ca
+  - parafraseja
+  - paws_ca
+  # - phrases_va
+  - piqa_ca
+  - siqa_ca
+  - teca
+  # - wnli_ca
+  - xnli_ca
+  - xquad_ca
+  - xstorycloze_ca
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True
