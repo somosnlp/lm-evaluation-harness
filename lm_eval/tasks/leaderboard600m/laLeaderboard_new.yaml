@@ -1,0 +1,23 @@
+group: laLeaderboard_new
+task:
+  - aquas
+  - bec2016eu
+  - bertaqa_eu
+  - bhtc_v2
+  - epec_koref_bin
+  - eus_exams_eu
+  - eus_proficiency
+  - eus_reading
+  - eus_trivia
+  - noticia
+  - qnlieu
+  - ragquas
+  - teleia
+  - vaxx_stance
+  - wiceu
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
