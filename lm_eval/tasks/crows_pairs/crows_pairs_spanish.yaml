@@ -1,0 +1,5 @@
+include: crows_pairs_english.yaml
+task: crows_pairs_spanish
+dataset_path: multilingual-crows-pairs/multilingual-crows-pairs
+dataset_name: es_AR
+test_split: train
