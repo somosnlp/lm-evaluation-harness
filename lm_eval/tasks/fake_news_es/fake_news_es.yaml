@@ -1,0 +1,18 @@
+task: fake_news_es
+dataset_path: mariagrandury/fake_news_corpus_spanish
+dataset_name: null
+output_type: multiple_choice
+training_split: train
+validation_split: validation
+test_split: test
+doc_to_text: "Indica si la siguiente noticia es cierta o falsa.\nTítulo: {{headline}}\nNoticia: {{text}}\nPregunta: ¿Cierta o falsa?\nRespuesta:"
+doc_to_target: category
+doc_to_choice: ["Cierta", "Falsa"]
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: True
+dataset_kwargs:
+  trust_remote_code: true
+metadata:
+  version: 1.0
