@@ -5,9 +5,9 @@ training_split: train
 validation_split: validation
 test_split: test
 fewshot_split: validation
-doc_to_text: "Determina si el siguiente comentario es ofensivo:\n{{tweet}}\nRespuesta:"
-doc_to_target: {{["Ofensivo", "No ofensivo"].index(emotion)}}
-doc_to_choice: ["Ofensivo", "No ofensivo"]
+doc_to_text: "Determina si el siguiente comentario es ofensivo:\n{{comment}}\nRespuesta:"
+doc_to_target: {{['NO', 'OFP', 'NOE', 'OFG'].index(label)}}
+doc_to_choice: ['NO', 'OFP', 'NOE', 'OFG']
 metric_list:
   - metric: acc
     aggregation: mean

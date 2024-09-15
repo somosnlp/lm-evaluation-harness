@@ -1,5 +1,5 @@
 task: parafrases_sushi
-dataset_path: gil-unam/parafrases-sushi
+dataset_path: mariagrandury/parafrases-sushi
 dataset_name: null
 training_split: train
 validation_split: validation
