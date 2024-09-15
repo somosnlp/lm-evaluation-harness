@@ -6,8 +6,8 @@ validation_split: validation
 test_split: test
 fewshot_split: validation
 doc_to_text: "Determina si el siguiente comentario es ofensivo:\n{{comment}}\nRespuesta:"
-doc_to_target: '{{['NO', 'OFP', 'NOE', 'OFG'].index(label)}}'
-doc_to_choice: ['NO', 'OFP', 'NOE', 'OFG']
+doc_to_target: '{{["NO", "OFP", "NOE", "OFG"].index(label)}}'
+doc_to_choice: ["NO", "OFP", "NOE", "OFG"]
 metric_list:
   - metric: acc
     aggregation: mean
