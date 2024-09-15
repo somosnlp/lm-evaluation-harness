@@ -27,9 +27,6 @@ Homepage: https://huggingface.co/datasets/LenguajeNaturalAI/HumorQA
 
 ### Groups and Tasks
 
-#### Groups
-
-* Open Spanish LLM Leaderboard
 
 #### Tasks
 

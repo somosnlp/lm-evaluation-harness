@@ -25,9 +25,6 @@ Homepage: https://huggingface.co/datasets/LenguajeNaturalAI/SpaLawEx
 
 ### Groups and Tasks
 
-#### Groups
-
-* Open Spanish LLM Leaderboard
 
 #### Tasks
 

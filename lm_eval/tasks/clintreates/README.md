@@ -25,9 +25,6 @@ Homepage: https://huggingface.co/datasets/LenguajeNaturalAI/ClinTreatES
 
 ### Groups and Tasks
 
-#### Groups
-
-* Open Spanish LLM Leaderboard
 
 #### Tasks
 
