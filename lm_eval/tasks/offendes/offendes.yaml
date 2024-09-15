@@ -1,3 +1,4 @@
+task: offendes
 dataset_path: SINAI/OffendES
 dataset_name: null
 output_type: multiple_choice
