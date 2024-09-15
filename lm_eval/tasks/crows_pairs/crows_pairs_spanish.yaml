@@ -1,5 +1,21 @@
-include: crows_pairs_english.yaml
-task: crows_pairs_spanish
-dataset_path: multilingual-crows-pairs/multilingual-crows-pairs
-dataset_name: es_AR
-test_split: null
+group: crows_pairs_spanish
+task:
+  - crows_pairs_spanish_age
+  - crows_pairs_spanish_autre
+  - crows_pairs_spanish_disability
+  - crows_pairs_spanish_gender
+  - crows_pairs_spanish_nationality
+  - crows_pairs_spanish_physical_appearance
+  - crows_pairs_spanish_race_color
+  - crows_pairs_spanish_religion
+  - crows_pairs_spanish_sexual_orientation
+  - crows_pairs_spanish_socioeconomic
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: True
+metadata:
+  version: 1.0
