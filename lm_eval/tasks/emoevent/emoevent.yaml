@@ -4,9 +4,18 @@ output_type: multiple_choice
 training_split: train
 validation_split: validation
 test_split: test
-doc_to_text: "Determina la emoción principal del siguiente tweet: {{tweet}}"
-doc_to_target: emotion
-doc_to_choice: ['others' 'disgust' 'joy' 'fear' 'surprise' 'sadness' 'anger']
+fewshot_split: validation
+doc_to_text: "Determina la emoción principal del siguiente tweet. \nTweet: {{tweet}}\nOpciones: alegría, disgusto, enfado, miedo, sorpresa, tristeza, otro \nRespuesta:"
+doc_to_target: {{["joy", "disgust", "anger", "fear", "surprise", "sadness", "others"].index(emotion)}}
+doc_to_choice: [
+    "alegría",
+    "disgusto",
+    "enfado",
+    "miedo",
+    "sorpresa",
+    "tristeza",
+    "otro",
+]
 metric_list:
   - metric: acc
     aggregation: mean

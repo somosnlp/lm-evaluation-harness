@@ -1,0 +1,16 @@
+dataset_path: SINAI/OffendES
+dataset_name: null
+output_type: multiple_choice
+training_split: train
+validation_split: validation
+test_split: test
+fewshot_split: validation
+doc_to_text: "Determina si el siguiente comentario es ofensivo:\n{{tweet}}\nRespuesta:"
+doc_to_target: {{["Ofensivo", "No ofensivo"].index(emotion)}}
+doc_to_choice: ["Ofensivo", "No ofensivo"]
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
