@@ -2,8 +2,8 @@ task: fake_news_es
 dataset_path: mariagrandury/fake_news_corpus_spanish
 dataset_name: null
 output_type: multiple_choice
-training_split: train
-validation_split: validation
+training_split: null
+validation_split: null
 test_split: test
 fewshot_split: validation
 doc_to_text: "Indica si la siguiente noticia es cierta o falsa.\nTitular de la noticia: {{headline}}\nCuerpo de la noticia: {{text}}\nPregunta: ¿Cierta o falsa?\nRespuesta:"
