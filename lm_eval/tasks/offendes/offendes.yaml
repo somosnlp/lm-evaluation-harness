@@ -6,9 +6,9 @@ training_split: train
 validation_split: validation
 test_split: test
 fewshot_split: validation
-doc_to_text: "Determina si el siguiente comentario es ofensivo:\n{{comment}}\nRespuesta:"
-doc_to_target: '{{["NO", "OFP", "NOE", "OFG"].index(label)}}'
-doc_to_choice: ["NO", "OFP", "NOE", "OFG"]
+doc_to_text: "Clasifica el siguiente comentario entre las siguientes categorías: OFP (ofensivo contra una persona), OFG (ofensivo contra un grupo de personas o colectivo), NOE (no ofensivo pero con lenguaje explícito), NO (no ofensivo)\nComentario: {{comment}}\nCategoría:"
+doc_to_target: '{{["OFP", "OFG", "NOE", "NO"].index(label)}}'
+doc_to_choice: ["OFP", "OFG", "NOE", "NO"]
 metric_list:
   - metric: acc
     aggregation: mean
