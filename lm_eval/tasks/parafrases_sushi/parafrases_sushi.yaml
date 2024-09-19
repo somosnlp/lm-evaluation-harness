@@ -7,8 +7,8 @@ test_split: test
 fewshot_split: validation
 output_type: multiple_choice
 doc_to_text: ""
-doc_to_target: "{{0 if Avaliación == 0 else 1}}"
-doc_to_choice: '{{[sentence1+", ¿verdad? Sí, "+sentence2, sentence1+", ¿verdad? No, "+sentence2]}}'
+doc_to_target: label
+doc_to_choice: '{{[sentence1+", ¿verdad? No, "+sentence2, sentence1+", ¿verdad? Sí, "+sentence2]}}'
 target_delimiter: ""
 metric_list:
   - metric: acc
