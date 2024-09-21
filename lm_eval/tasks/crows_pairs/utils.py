@@ -21,7 +21,8 @@ def doc_to_choice(doc):
 
 
 def filter_dataset(dataset: datasets.Dataset, bias_type: str) -> datasets.Dataset:
-    return dataset.filter(lambda example: example["bias_type"].startswith(bias_type))
+    return dataset.filter(lambda example: example["bias_type"] is not None and example["bias_type"].startswith(bias_type))
+
 
 
 def filter_race_color(dataset: datasets.Dataset) -> datasets.Dataset:
@@ -58,7 +59,3 @@ def filter_nationality(dataset: datasets.Dataset) -> datasets.Dataset:
 
 def filter_appearance(dataset: datasets.Dataset) -> datasets.Dataset:
     return filter_dataset(dataset, "physical-appearance")
-
-
-def filter_autre(dataset: datasets.Dataset) -> datasets.Dataset:
-    return filter_dataset(dataset, "autre")

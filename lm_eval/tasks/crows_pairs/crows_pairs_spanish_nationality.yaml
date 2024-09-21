@@ -1,6 +1,6 @@
 include: crows_pairs_english.yaml
 task: crows_pairs_spanish_nationality
 dataset_path: multilingual-crows-pairs/multilingual-crows-pairs
-dataset_name: es_AR
-test_split: train
+dataset_name: default 
+test_split: es_AR
 process_docs: !function utils.filter_nationality

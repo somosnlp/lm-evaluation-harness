@@ -1,7 +1,6 @@
 group: crows_pairs_spanish
 task:
   - crows_pairs_spanish_age
-  - crows_pairs_spanish_autre
   - crows_pairs_spanish_disability
   - crows_pairs_spanish_gender
   - crows_pairs_spanish_nationality
