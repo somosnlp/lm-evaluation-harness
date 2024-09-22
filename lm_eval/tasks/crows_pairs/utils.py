@@ -59,3 +59,6 @@ def filter_nationality(dataset: datasets.Dataset) -> datasets.Dataset:
 
 def filter_appearance(dataset: datasets.Dataset) -> datasets.Dataset:
     return filter_dataset(dataset, "physical-appearance")
+
+def filter_autre(dataset: datasets.Dataset) -> datasets.Dataset:
+    return filter_dataset(dataset, "autre")
