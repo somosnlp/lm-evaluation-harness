@@ -1,36 +1,35 @@
-group: leaderboard600m
-group_alias: leaderboard600m
+group: laleaderboard
+group_alias: laleaderboard
 task:
   - aquas
   - arc_ca_aina
   - bec2016eu
-  # - belebele_cat_Latn
-  # - belebele_eus_Latn
   - belebele_glg_Latn
-  # - belebele_spa_Latn
   - bertaqa_eu
   - bhtc_v2
   - cabreu
   - catalanqa
   - catcola
-  - coqcat
+  - clindiagnoses
+  - clintreates
   - copa_ca
+  - coqcat
+  - crows_pairs_spanish
   - epec_koref_bin
   - escola
   - eus_exams_eu
   - eus_proficiency
   - eus_reading
   - eus_trivia
-  # - flores_ca
-  # - flores_es
-  # - flores_eu
-  # - flores_gl
+  - fake_news_es
   - galcola
+  - humorqa
   - mgsm_direct_ca
   - mgsm_direct_es
   - mgsm_direct_eu
   - mgsm_direct_gl
   - noticia
+  - offendes
   - openbookqa_ca
   - openbookqa_gl
   - parafraseja
@@ -38,30 +37,27 @@ task:
   - paws_ca
   - paws_es
   - paws_gl
-  - phrases_va
   - piqa_ca
   - qnlieu
   - ragquas
   - siqa_ca
+  - spalawex
   - summarization_gl
   - teca
   - teleia
-  - truthfulqa_gl
   - vaxx_stance
   - wiceu
-  # - wnli_ca
-  # - wnli_es
-  # - wnli_eu
+  - wnli_ca
+  - wnli_es
   - xcopa_eu
+  - xnli_ca
+  - xnli_es
+  - xnli_eu
   - xquad_ca
   - xquad_es
   - xstorycloze_ca
   - xstorycloze_es
   - xstorycloze_eu
-  - xnli_ca
-  - xnli_es
-  - xnli_eu
-  - xlsum_es
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
