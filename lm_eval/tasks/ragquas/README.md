@@ -34,6 +34,8 @@ Homepage: https://huggingface.co/datasets/IIC/RagQuAS
 
 * `ragquas`
 
+This task is evaluated using 0-shot evaluation.
+
 ### Checklist
 
 For adding novel benchmarks/datasets to the library:
