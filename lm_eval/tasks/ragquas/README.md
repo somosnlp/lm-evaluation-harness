@@ -28,13 +28,14 @@ Homepage: https://huggingface.co/datasets/IIC/RagQuAS
 
 #### Groups
 
-* Open Spanish LLM Leaderboard
+* `laleaderboard`
+* `laleaderboard_es`
 
 #### Tasks
 
 * `ragquas`
 
-This task is evaluated using 0-shot evaluation.
+This task is evaluated using 1-shot evaluation.
 
 ### Checklist
 
