@@ -1,32 +1,54 @@
 group: laleaderboard_es
 task:
-  - aquas
-  - belebele_spa_Latn
-  - clindiagnoses
-  - clintreates
-  - copa_es
-  - crows_pairs_spanish
-  - escola
-  - fake_news_es
-  - humorqa
+  - task: aquas
+    num_fewshot: 5
+  - task: belebele_spa_Latn
+    num_fewshot: 5
+  - task: clindiagnoses
+    num_fewshot: 5
+  - task: clintreates
+    num_fewshot: 5
+  - task: copa_es
+    num_fewshot: 5
+  - task: crows_pairs_spanish
+    num_fewshot: 5
+  - task: escola
+    num_fewshot: 5
+  - task: fake_news_es
+    num_fewshot: 5
+  - task: humorqa
+    num_fewshot: 5
   # - flores_es
-  - mgsm_direct_es_spanish_bench
-  - noticia
-  - offendes
-  - openbookqa_es
-  - paws_es_spanish_bench
+  - task: mgsm_direct_es_spanish_bench
+    num_fewshot: 5
+  - task: noticia
+    num_fewshot: 5
+  - task: offendes
+    num_fewshot: 5
+  - task: openbookqa_es
+    num_fewshot: 5
+  - task: paws_es_spanish_bench
+    num_fewshot: 5
   # - phrases_es
-  - ragquas
-  - spalawex
-  - teleia
-  - wnli_es
-  - xnli_es_spanish_bench
-  - xlsum_es
-  - xquad_es
-  - xstorycloze_es
+  - task: ragquas
+    num_fewshot: 5
+  - task: spalawex
+    num_fewshot: 5
+  - task: teleia
+    num_fewshot: 5
+  - task: wnli_es
+    num_fewshot: 5
+  - task: xnli_es_spanish_bench
+    num_fewshot: 5
+  - task: xlsum_es
+    num_fewshot: 5
+  - task: xquad_es
+    num_fewshot: 5
+  - task: xstorycloze_es
+    num_fewshot: 5
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
-    weight_by_size: True
+    weight_by_size: False
 metadata:
   version: 1.0

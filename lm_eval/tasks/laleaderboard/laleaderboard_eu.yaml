@@ -1,26 +1,43 @@
 group: laleaderboard_eu
 task:
-  - bec2016eu
-  - belebele_eus_Latn
-  - bertaqa_eu
-  - bhtc_v2
-  - epec_koref_bin
-  - eus_exams_eu
-  - eus_proficiency
-  - eus_reading
-  - eus_trivia
+  - task: bec2516eu
+    num_fewshot: 5
+  - task: belebele_eus_Latn
+    num_fewshot: 5
+  - task: bertaqa_eu
+    num_fewshot: 5
+  - task: bhtc_v2
+    num_fewshot: 5
+  - task: epec_koref_bin
+    num_fewshot: 5
+  - task: eus_exams_eu
+    num_fewshot: 5
+  - task: eus_proficiency
+    num_fewshot: 5
+  - task: eus_reading
+    num_fewshot: 5
+  - task: eus_trivia
+    num_fewshot: 5
   # - flores_eu
-  - mgsm_native_cot_eu
-  - qnlieu
-  - vaxx_stance
-  - wiceu
-  - wnli_eu
-  - xcopa_eu
-  - xnli_eu_native
-  - xstorycloze_eu
+  - task: mgsm_native_cot_eu
+    num_fewshot: 5
+  - task: qnlieu
+    num_fewshot: 5
+  - task: vaxx_stance
+    num_fewshot: 5
+  - task: wiceu
+    num_fewshot: 5
+  - task: wnli_eu
+    num_fewshot: 5
+  - task: xcopa_eu
+    num_fewshot: 5
+  - task: xnli_eu_native
+    num_fewshot: 5
+  - task: xstorycloze_eu
+    num_fewshot: 5
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
-    weight_by_size: True
+    weight_by_size: False
 metadata:
   version: 1.0

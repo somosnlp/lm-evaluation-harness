@@ -1,19 +1,29 @@
 group: laleaderboard_gl
 task:
-  - belebele_glg_Latn
+  - task: belebele_glg_Latn
+    num_fewshot: 5
   # - flores_gl
-  - galcola
-  - mgsm_direct_gl
-  - openbookqa_gl
-  - parafrases_gl
-  - paws_gl
-  - summarization_gl
+  - task: galcola
+    num_fewshot: 5
+  - task: mgsm_direct_gl
+    num_fewshot: 5
+  - task: openbookqa_gl
+    num_fewshot: 5
+  - task: parafrases_gl
+    num_fewshot: 5
+  - task: paws_gl
+    num_fewshot: 5
+  - task: summarization_gl
+    num_fewshot: 5
   # - truthfulqa_gl
-  - xnli_gl
-  - xstorycloze_gl
+    num_fewshot: 5
+  - task: xnli_gl
+    num_fewshot: 5
+  - task: xstorycloze_gl
+    num_fewshot: 5
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
-    weight_by_size: True
+    weight_by_size: False
 metadata:
   version: 1.0
