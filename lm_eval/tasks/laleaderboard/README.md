@@ -8,63 +8,83 @@ A benchmark combining tasks to evaluate generative LLMs in Spanish Varieties and
 
 ### Tasks
 
+## Spanish
+
 - aquas
-- arc_ca_aina
-- bec2016eu
-- belebele_glg_Latn
-- bertaqa_eu
-- bhtc_v2
+- belebele_spa_Latn
+- clindiagnoses
+- clintreates
+- copa_es
+- crows_pairs_spanish
+- escola
+- fake_news_es
+- humorqa
+- mgsm_direct_es_spanish_bench
+- noticia
+- offendes
+- openbookqa_es
+- paws_es_spanish_bench
+- ragquas
+- spalawex
+- teleia
+- wnli_es
+- xnli_es_spanish_bench
+- xlsum_es
+- xquad_es
+- xstorycloze_es
+
+## Catalan
+
+- arc_ca_catalan_bench
+- belebele_cat_Latn
 - cabreu
 - catalanqa
 - catcola
-- clindiagnoses
-- clintreates
 - copa_ca
 - coqcat
-- crows_pairs_spanish
+- mgsm_direct_ca
+- openbookqa_ca
+- parafraseja
+- paws_ca
+- piqa_ca
+- siqa_ca
+- teca
+- wnli_ca
+- xnli_ca
+- xquad_ca
+- xstorycloze_ca
+
+## Basque
+
+- bec2016eu
+- belebele_eus_Latn
+- bertaqa_eu
+- bhtc_v2
 - epec_koref_bin
-- escola
 - eus_exams_eu
 - eus_proficiency
 - eus_reading
 - eus_trivia
-- fake_news_es
-- galcola
-- humorqa
-- mgsm_direct_ca
-- mgsm_direct_es
-- mgsm_direct_eu
-- mgsm_direct_gl
-- noticia
-- offendes
-- openbookqa_ca
-- openbookqa_gl
-- parafraseja
-- parafrases_gl
-- paws_ca
-- paws_es
-- paws_gl
-- piqa_ca
+- mgsm_native_cot_eu
 - qnlieu
-- ragquas
-- siqa_ca
-- spalawex
-- summarization_gl
-- teca
-- teleia
 - vaxx_stance
 - wiceu
-- wnli_ca
-- wnli_es
+- wnli_eu
 - xcopa_eu
-- xnli_ca
-- xnli_es
-- xnli_eu
-- xquad_ca
-- xquad_es
-- xstorycloze_ca
-- xstorycloze_es
+- xnli_eu_native
 - xstorycloze_eu
+
+## Galician
+
+- belebele_glg_Latn
+- galcola
+- mgsm_direct_gl
+- openbookqa_gl
+- parafrases_gl
+- paws_gl
+- summarization_gl
+- xnli_gl
+- xstorycloze_gl
 
 ### Reproducibility
 

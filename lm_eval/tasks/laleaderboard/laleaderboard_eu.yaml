@@ -1,7 +1,7 @@
-group: laleaderboard_new
+group: laleaderboard_eu
 task:
-  - aquas
   - bec2016eu
+  - belebele_eus_Latn
   - bertaqa_eu
   - bhtc_v2
   - epec_koref_bin
@@ -9,15 +9,18 @@ task:
   - eus_proficiency
   - eus_reading
   - eus_trivia
-  - noticia
+  # - flores_eu
+  - mgsm_native_cot_eu
   - qnlieu
-  - ragquas
-  - teleia
   - vaxx_stance
   - wiceu
+  - wnli_eu
+  - xcopa_eu
+  - xnli_eu_native
+  - xstorycloze_eu
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
-    weight_by_size: true
+    weight_by_size: True
 metadata:
   version: 1.0

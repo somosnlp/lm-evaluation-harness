@@ -1,63 +1,10 @@
 group: laleaderboard
 group_alias: laleaderboard
 task:
-  - aquas
-  - arc_ca_aina
-  - bec2016eu
-  - belebele_glg_Latn
-  - bertaqa_eu
-  - bhtc_v2
-  - cabreu
-  - catalanqa
-  - catcola
-  - clindiagnoses
-  - clintreates
-  - copa_ca
-  - coqcat
-  - crows_pairs_spanish
-  - epec_koref_bin
-  - escola
-  - eus_exams_eu
-  - eus_proficiency
-  - eus_reading
-  - eus_trivia
-  - fake_news_es
-  - galcola
-  - humorqa
-  - mgsm_direct_ca
-  - mgsm_direct_es
-  - mgsm_direct_eu
-  - mgsm_direct_gl
-  - noticia
-  - offendes
-  - openbookqa_ca
-  - openbookqa_gl
-  - parafraseja
-  - parafrases_gl
-  - paws_ca
-  - paws_es
-  - paws_gl
-  - piqa_ca
-  - qnlieu
-  - ragquas
-  - siqa_ca
-  - spalawex
-  - summarization_gl
-  - teca
-  - teleia
-  - vaxx_stance
-  - wiceu
-  - wnli_ca
-  - wnli_es
-  - xcopa_eu
-  - xnli_ca
-  - xnli_es
-  - xnli_eu
-  - xquad_ca
-  - xquad_es
-  - xstorycloze_ca
-  - xstorycloze_es
-  - xstorycloze_eu
+  - laleaderboard_ca
+  - laleaderboard_es
+  - laleaderboard_eu
+  - laleaderboard_gl
 aggregate_metric_list:
   - metric: acc
     aggregation: mean

@@ -1,7 +1,7 @@
 group: laleaderboard_ca
 task:
   - arc_ca_catalan_bench
-  # - belebele_cat_Latn
+  - belebele_cat_Latn
   - cabreu
   - catalanqa
   - catcola
@@ -16,7 +16,7 @@ task:
   - piqa_ca
   - siqa_ca
   - teca
-  # - wnli_ca
+  - wnli_ca
   - xnli_ca
   - xquad_ca
   - xstorycloze_ca
@@ -24,3 +24,5 @@ aggregate_metric_list:
   - metric: acc
     aggregation: mean
     weight_by_size: True
+metadata:
+  version: 1.0

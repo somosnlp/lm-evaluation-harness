@@ -1,0 +1,32 @@
+group: laleaderboard_es
+task:
+  - aquas
+  - belebele_spa_Latn
+  - clindiagnoses
+  - clintreates
+  - copa_es
+  - crows_pairs_spanish
+  - escola
+  - fake_news_es
+  - humorqa
+  # - flores_es
+  - mgsm_direct_es_spanish_bench
+  - noticia
+  - offendes
+  - openbookqa_es
+  - paws_es_spanish_bench
+  # - phrases_es
+  - ragquas
+  - spalawex
+  - teleia
+  - wnli_es
+  - xnli_es_spanish_bench
+  - xlsum_es
+  - xquad_es
+  - xstorycloze_es
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True
+metadata:
+  version: 1.0
