@@ -1,0 +1,13 @@
+group: arc_ca_catalan_bench
+task:
+  - arc_ca_easy
+  - arc_ca_challenge
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: True
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: True
+metadata:
+  version: 1.0

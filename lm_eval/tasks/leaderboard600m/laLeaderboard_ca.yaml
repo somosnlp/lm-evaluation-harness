@@ -1,6 +1,6 @@
 group: laleaderboard_ca
 task:
-  - arc_ca_aina
+  - arc_ca_catalan_bench
   # - belebele_cat_Latn
   - cabreu
   - catalanqa

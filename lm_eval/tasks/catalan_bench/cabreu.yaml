@@ -1,0 +1,11 @@
+group: cabreu
+task:
+  - cabreu_abstractive
+  - cabreu_extractive
+  - cabreu_extreme
+aggregate_metric_list:
+  - metric: bleu
+    aggregation: mean # only supported aggregation across groups' subtasks
+    weight_by_size: True
+metadata:
+  version: 1.0
