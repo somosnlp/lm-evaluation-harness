@@ -28,11 +28,14 @@ Homepage: https://huggingface.co/datasets/IIC/AQuAS
 
 #### Groups
 
-* Open Spanish LLM Leaderboard
+* `laleaderboard`
+* `laleaderboard_es`
 
 #### Tasks
 
 * `aquas`
+
+This task is evaluated using 1-shot evaluation.
 
 ### Checklist
 
