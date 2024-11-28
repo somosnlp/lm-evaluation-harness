@@ -5,6 +5,8 @@ output_type: multiple_choice
 training_split: null
 validation_split: validation
 test_split: test
+fewshot_split: null
+num_fewshot: 0
 doc_to_text: question_stem
 doc_to_target: "{{choices.label.index(answerKey.lstrip())}}"
 doc_to_choice: "{{choices.text}}"

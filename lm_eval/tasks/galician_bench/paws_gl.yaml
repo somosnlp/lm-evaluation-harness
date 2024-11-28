@@ -5,11 +5,13 @@ output_type: multiple_choice
 training_split: null
 validation_split: null
 test_split: test
+fewshot_split: null
+num_fewshot: 3
 process_docs: !function utils.process_docs_paws
-doc_to_text: ''
+doc_to_text: ""
 doc_to_target: label
 doc_to_choice: '{{[sentence1+", verdadeiro? Non, "+sentence2, sentence1+", verdadeiro? Si, "+sentence2]}}'
-target_delimiter: ''
+target_delimiter: ""
 metric_list:
   - metric: acc
     aggregation: mean

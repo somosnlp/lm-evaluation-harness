@@ -6,6 +6,7 @@ doc_to_choice: ["A", "B", "C", "D"]
 validation_split: null
 test_split: test
 fewshot_split: test
+num_fewshot: 4
 output_type: multiple_choice
 doc_to_target: answer
 metric_list:

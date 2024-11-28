@@ -5,11 +5,12 @@ test_split: test
 training_split: train
 validation_split: validation
 fewshot_split: train
+num_fewshot: 1
 process_docs: !function utils.process_summarization
-doc_to_text: 'Texto: {{text}}
+doc_to_text: "Texto: {{text}}
 
-  Resumo:'
-doc_to_target: '{{summary}}'
+  Resumo:"
+doc_to_target: "{{summary}}"
 metric_list:
   - metric: bleu
     aggregation: bleu

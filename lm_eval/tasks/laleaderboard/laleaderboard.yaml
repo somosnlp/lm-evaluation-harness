@@ -8,6 +8,6 @@ task:
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
-    weight_by_size: true
+    weight_by_size: False
 metadata:
   version: 1.0

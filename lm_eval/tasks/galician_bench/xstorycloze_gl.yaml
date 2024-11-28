@@ -3,6 +3,8 @@ dataset_path: proxectonos/xstorycloze_gl
 output_type: multiple_choice
 training_split: train
 validation_split: test
+fewshot_split: null
+num_fewshot: 0
 doc_to_text: "{{[InputSentence1, InputSentence2, InputSentence3, InputSentence4]|join(' ')}}"
 doc_to_target: "{{AnswerRightEnding-1}}"
 doc_to_choice: "{{[RandomFifthSentenceQuiz1, RandomFifthSentenceQuiz2]}}"

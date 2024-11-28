@@ -1,28 +1,46 @@
 group: laleaderboard_ca
 task:
-  - arc_ca_catalan_bench
-  - belebele_cat_Latn
-  - cabreu
-  - catalanqa
-  - catcola
-  - copa_ca
-  - coqcat
+  - task: arc_ca_catalan_bench
+    num_fewshot: 2
+  - task: belebele_cat_Latn
+    num_fewshot: 2
+  - task: cabreu
+    num_fewshot: 1
+  - task: catalanqa
+    num_fewshot: 2
+  - task: catcola
+    num_fewshot: 2
+  - task: copa_ca
+    num_fewshot: 3
+  - task: coqcat
+    num_fewshot: 1
   # - flores_ca
-  - mgsm_direct_ca
-  - openbookqa_ca
-  - parafraseja
-  - paws_ca
+  - task: mgsm_direct_ca
+    num_fewshot: 2
+  - task: openbookqa_ca
+    num_fewshot: 0
+  - task: parafraseja
+    num_fewshot: 3
+  - task: paws_ca
+    num_fewshot: 3
   # - phrases_va
-  - piqa_ca
-  - siqa_ca
-  - teca
-  - wnli_ca
-  - xnli_ca
-  - xquad_ca
-  - xstorycloze_ca
+  - task: piqa_ca
+    num_fewshot: 2
+  - task: siqa_ca
+    num_fewshot: 2
+  - task: teca
+    num_fewshot: 3
+  - task: wnli_ca
+    num_fewshot: 2
+  - task: xnli_ca
+    num_fewshot: 3
+  - task: xquad_ca
+    num_fewshot: 2
+  - task: xstorycloze_ca
+    num_fewshot: 0
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
-    weight_by_size: True
+    weight_by_size: False
 metadata:
   version: 1.0

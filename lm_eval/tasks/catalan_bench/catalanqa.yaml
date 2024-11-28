@@ -5,9 +5,11 @@ output_type: generate_until
 training_split: train
 validation_split: validation
 test_split: test
+fewshot_split: null
+num_fewshot: 2
 doc_to_text: "Context: {{context}}\n\nPregunta: {{question}}\n\nResposta:"
-doc_to_target: '{{answers[0]["text"]}}'
-target_delimiter: ' '
+doc_to_target: "{{answers[0]['text']}}"
+target_delimiter: " "
 process_results: !function utils.process_results_qa
 generation_kwargs:
   until:

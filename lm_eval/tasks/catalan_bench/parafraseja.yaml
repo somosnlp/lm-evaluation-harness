@@ -5,9 +5,11 @@ dataset_name: null
 test_split: test
 training_split: train
 validation_split: validation
+fewshot_split: null
+num_fewshot: 3
 doc_to_choice: '{{[sentence1+", veritat? No, "+sentence2, sentence1+", veritat? Sí, "+sentence2]}}'
 process_docs: !function utils.process_docs_paraphrases
-doc_to_text: ''
+doc_to_text: ""
 doc_to_target: label
 metric_list:
   - metric: acc

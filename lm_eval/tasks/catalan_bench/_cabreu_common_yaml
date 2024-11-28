@@ -4,6 +4,8 @@ output_type: generate_until
 test_split: test
 training_split: train
 validation_split: validation
+fewshot_split: null
+num_fewshot: 1
 process_docs: !function utils.process_doc_cabreu
 metric_list:
   - metric: bleu

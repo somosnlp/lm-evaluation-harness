@@ -1,6 +1,7 @@
 dataset_path: facebook/belebele
 fewshot_config:
   sampler: first_n
+num_fewshot: 2
 output_type: multiple_choice
 should_decontaminate: true
 doc_to_decontamination_query: "{{question}}"

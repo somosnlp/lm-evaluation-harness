@@ -4,6 +4,8 @@ output_type: multiple_choice
 training_split: null
 validation_split: validation
 test_split: null
+fewshot_split: null
+num_fewshot: 2
 doc_to_text: "Pregunta: {{context}} {{question}}\nResposta:"
 target_delimiter: " "
 doc_to_choice: "{{[answerA, answerB, answerC]}}"

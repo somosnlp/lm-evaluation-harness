@@ -1,11 +1,13 @@
 task: mgsm_direct_eu
 dataset_path: HiTZ/MGSM-eu
 dataset_name: null
-doc_to_target: '{{answer_number|string}}'
+doc_to_target: "{{answer_number|string}}"
 doc_to_text: '{% if answer is not none %}{{question+"\nErantzuna:"}}{% else %}{{"Galdera: "+question+"\nErantzuna:"}}{% endif %}'
 output_type: generate_until
 training_split: train
 test_split: test
+fewshot_split: null
+num_fewshot: 2
 target_delimiter: " "
 generation_kwargs:
   until:
@@ -23,10 +25,10 @@ filter_list:
       - function: take_first
   - name: flexible-extract
     filter:
-    - function: regex
-      group_select: -1
-      regex_pattern: (-?[0-9]+([ .,][0-9.,]+)?)
-    - function: take_first
+      - function: regex
+        group_select: -1
+        regex_pattern: (-?[0-9]+([ .,][0-9.,]+)?)
+      - function: take_first
 metric_list:
   - metric: exact_match
     aggregation: mean

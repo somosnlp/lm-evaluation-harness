@@ -1,4 +1,6 @@
 include: xquad_common_yaml
 task: xquad_es
 dataset_name: xquad.es
+fewshot_split: null
+num_fewshot: 2
 doc_to_text: "Contexto: {{context}}\n\nPregunta: {{question}}\n\nRespuesta:"
