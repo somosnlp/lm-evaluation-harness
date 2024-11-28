@@ -4,6 +4,8 @@ output_type: generate_until
 training_split: train
 validation_split: validation
 test_split: test
+fewshot_split: null
+num_fewshot: 1
 doc_to_text: '{{story+"\n\n"}}{% for i in range(questions|length-1) %}{{"Q: "+questions[i]+"\n\n"+"A: "+answers["input_text"][i]+"\n\n"}}{% endfor %}{{"Q: "+questions[-1]+"\n\n"+"A:"}}'
 doc_to_target: '{{ answers["input_text"][questions|length - 1] }}'
 process_results: !function utils.process_results_coqcat

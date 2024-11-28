@@ -3,6 +3,8 @@ dataset_path: LenguajeNaturalAI/ClinTreatES
 test_split: train
 doc_to_text: !function utils.case_to_rawtext
 doc_to_target: "{{Tratamiento}}"
+fewshot_split: null
+num_fewshot: 0
 metric_list:
   - metric: sas_encoder
     model_name_or_path: "BAAI/bge-m3"

@@ -2,6 +2,8 @@ task: humorqa
 dataset_path: LenguajeNaturalAI/HumorQA
 output_type: multiple_choice
 test_split: train
+fewshot_split: null
+num_fewshot: 0
 doc_to_text: !function utils.doc_to_text
 doc_to_target: !function utils.doc_to_target
 doc_to_choice: !function utils.doc_to_choice
@@ -9,7 +11,7 @@ metric_list:
   - metric: acc
     aggregation: mean
     higher_is_better: true
-metadata:
-  version: 0.1
 dataset_kwargs:
   trust_remote_code: true
+metadata:
+  version: 0.1

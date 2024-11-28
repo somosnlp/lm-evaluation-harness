@@ -4,6 +4,8 @@ output_type: multiple_choice
 training_split: null
 validation_split: validation
 test_split: test
+fewshot_split: null
+num_fewshot: 2
 doc_to_text: "Pregunta: {{question}}\nResposta:"
 doc_to_target: "{{choices.label.index(answerKey)}}"
 doc_to_choice: "{{choices.text}}"

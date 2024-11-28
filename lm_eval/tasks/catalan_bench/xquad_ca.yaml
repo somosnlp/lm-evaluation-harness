@@ -6,7 +6,9 @@ doc_to_text: "Context: {{context}}\n\nPregunta: {{question}}\n\nResposta:"
 doc_to_target: '{{answers[0]["text"]}}'
 validation_split: null
 test_split: test
-target_delimiter: ' '
+fewshot_split: null
+num_fewshot: 2
+target_delimiter: " "
 process_results: !function utils.process_results_qa
 generation_kwargs:
   until:

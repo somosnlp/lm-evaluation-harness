@@ -1,6 +1,8 @@
 task: ragquas
 dataset_path: IIC/RagQuAS
 test_split: test
+fewshot_split: null
+num_fewshot: 1
 doc_to_text: !function utils.doc_to_text
 doc_to_target: "{{answer}}"
 metric_list:

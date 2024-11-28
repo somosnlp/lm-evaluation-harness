@@ -1,6 +1,8 @@
 task: clindiagnoses
 dataset_path: LenguajeNaturalAI/ClinDiagnosES
 test_split: train
+fewshot_split: null
+num_fewshot: 0
 doc_to_text: !function utils.case_to_rawtext
 doc_to_target: "{{Diagnostico}}"
 metric_list:
