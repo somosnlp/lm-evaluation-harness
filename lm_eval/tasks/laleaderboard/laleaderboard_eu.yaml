@@ -1,40 +1,40 @@
 group: laleaderboard_eu
 task:
   - task: bec2516eu
-    num_fewshot: 5
+    num_fewshot: 3
   - task: belebele_eus_Latn
-    num_fewshot: 5
+    num_fewshot: 2
   - task: bertaqa_eu
-    num_fewshot: 5
+    num_fewshot: 3
   - task: bhtc_v2
-    num_fewshot: 5
+    num_fewshot: 2
   - task: epec_koref_bin
-    num_fewshot: 5
+    num_fewshot: 3
   - task: eus_exams_eu
-    num_fewshot: 5
+    num_fewshot: 4
   - task: eus_proficiency
-    num_fewshot: 5
+    num_fewshot: 4
   - task: eus_reading
-    num_fewshot: 5
+    num_fewshot: 1
   - task: eus_trivia
-    num_fewshot: 5
+    num_fewshot: 4
   # - flores_eu
   - task: mgsm_native_cot_eu
-    num_fewshot: 5
+    num_fewshot: 2
   - task: qnlieu
-    num_fewshot: 5
+    num_fewshot: 2
   - task: vaxx_stance
-    num_fewshot: 5
+    num_fewshot: 3
   - task: wiceu
-    num_fewshot: 5
+    num_fewshot: 2
   - task: wnli_eu
-    num_fewshot: 5
+    num_fewshot: 2
   - task: xcopa_eu
-    num_fewshot: 5
+    num_fewshot: 3
   - task: xnli_eu_native
-    num_fewshot: 5
+    num_fewshot: 3
   - task: xstorycloze_eu
-    num_fewshot: 5
+    num_fewshot: 0
 aggregate_metric_list:
   - metric: acc
     aggregation: mean

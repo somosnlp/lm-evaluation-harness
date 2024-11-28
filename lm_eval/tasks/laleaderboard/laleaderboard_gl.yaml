@@ -1,26 +1,26 @@
 group: laleaderboard_gl
 task:
   - task: belebele_glg_Latn
-    num_fewshot: 5
+    num_fewshot: 2
   # - flores_gl
   - task: galcola
-    num_fewshot: 5
+    num_fewshot: 2
   - task: mgsm_direct_gl
-    num_fewshot: 5
+    num_fewshot: 2
   - task: openbookqa_gl
-    num_fewshot: 5
+    num_fewshot: 0
   - task: parafrases_gl
-    num_fewshot: 5
+    num_fewshot: 3
   - task: paws_gl
-    num_fewshot: 5
+    num_fewshot: 3
   - task: summarization_gl
-    num_fewshot: 5
+    num_fewshot: 1
   # - truthfulqa_gl
     num_fewshot: 5
   - task: xnli_gl
-    num_fewshot: 5
+    num_fewshot: 3
   - task: xstorycloze_gl
-    num_fewshot: 5
+    num_fewshot: 0
 aggregate_metric_list:
   - metric: acc
     aggregation: mean
