@@ -1,6 +1,6 @@
 group: laleaderboard_eu
 task:
-  - task: bec2516eu
+  - task: bec2016eu
     num_fewshot: 3
   - task: belebele_eus_Latn
     num_fewshot: 2
