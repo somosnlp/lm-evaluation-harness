@@ -15,3 +15,6 @@ metric_list:
     higher_is_better: true
 metadata:
   version: 0.0
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples
