@@ -2,3 +2,6 @@ task: bertaqa_eu
 include: _bertaqa_template
 dataset_name: eu
 doc_to_text: "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nErantzuna:"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples(dataset_name)
