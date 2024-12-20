@@ -39,3 +39,27 @@ def doc_to_choice(doc) -> List[str]:
     if num_choices < 2:
         raise ValueError("Invalid number of candidates")
     return letters[:num_choices]
+
+def list_fewshot_samples() -> list[dict]:
+    return [
+        {
+        "problem": "Galdera: Nola bota behar dira honakoak ontzi horietara?\nA: Apurturik\nB: Denak lotuta\nC: Tapoia kendu gabe\nD: Tapoirik gabe\nErantzuna:",
+        "solution": "Tapoirik gabe",
+        "few-shot": "1"
+},
+        {
+        "problem": "Galdera: Zein da 69 zenbakiaren hurrengoa?\nA: 96\nB: 86\nC: 70\nC: 68\nErantzuna:",
+        "solution": "70",
+        "few-shot": "1"
+},
+        {
+        "problem": "Galdera: Lau sagarrek 400 gr pisatzen badute, zenbat pisatzen du sagar batek?\nA: Ez dakigu\nB: 150 gr\nC: 75 gr\nD: 100 gr\nErantzuna:",
+        "solution": "Ez dakigu",
+        "few-shot": "1"
+},
+        {
+        "problem": "Galdera: Zein da Bizkaian topa dezakegun sugerik handiena?\nA: Boa sugea\nB: Eskolapioren sugea\nC: Sugegorria\nD: Zirauna\nErantzuna:",
+        "solution": "Eskolapioren sugea",
+        "few-shot": "1"
+},
+    ]
