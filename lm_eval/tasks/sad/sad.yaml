@@ -1,0 +1,18 @@
+task: sad
+dataset_path: SINAI/SAD
+dataset_name: null
+test_split: train
+output_type: multiple_choice
+doc_to_text: >
+  Analiza el siguiente tuit y responde 
+  únicamente con 1 si está relacionado con la anorexia, 
+  o con 0 si no lo está.
+  Tuit: {{text}}
+doc_to_choice: ["0", "1"]
+doc_to_target: label
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
