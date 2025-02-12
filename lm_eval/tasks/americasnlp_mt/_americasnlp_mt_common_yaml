@@ -3,6 +3,7 @@ output_type: generate_until
 training_split: train
 validation_split: train
 test_split: train
+num_fewshot: 2
 fewshot_split: train
 target_delimiter: ''
 generation_kwargs:
