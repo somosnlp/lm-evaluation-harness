@@ -2,7 +2,7 @@
 include: _americasnlp_mt_common_yaml
 dataset_name: esp-nhn
 task: americasnlp-mt_esp-nhn
-doc_to_text: 'Frase en Español: {{sentence_spa_Latn}}
+doc_to_text: 'Frase en Español: {{text_from}}
 
   Frase en Náhuatl:'
-doc_to_target: '{{sentence_nhn_Latn}}'
+doc_to_target: '{{text_to}}'

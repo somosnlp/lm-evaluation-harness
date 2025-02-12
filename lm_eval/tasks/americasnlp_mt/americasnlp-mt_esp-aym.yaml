@@ -2,7 +2,7 @@
 include: _americasnlp_mt_common_yaml
 dataset_name: esp-aym
 task: americasnlp-mt_esp-aym
-doc_to_text: 'Frase en Español: {{sentence_spa_Latn}}
+doc_to_text: 'Frase en Español: {{text_from}}
 
   Frase en Aymara:'
-doc_to_target: '{{sentence_aym_Latn}}'
+doc_to_target: '{{text_to}}'
