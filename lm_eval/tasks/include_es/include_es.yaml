@@ -1,0 +1,26 @@
+group: include_es
+task:
+  - include_es_argentina
+  - include_es_chile
+  - include_es_colombia
+  - include_es_costa_rica
+  - include_es_cuba
+  - include_es_ecuador
+  - include_es_el_salvador
+  - include_es_espana
+  - include_es_mexico
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true 
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+  - metric: perplexity
+    aggregation: mean
+    weight_by_size: true
+  - metric: f1
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
