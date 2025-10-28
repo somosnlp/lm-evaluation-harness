@@ -288,9 +288,9 @@ class EvaluationTracker:
                 directory_path = os.path.dirname(self.output_path) if self.output_path else os.path.dirname(Path.cwd())
                 path = Path(directory_path if self.output_path else Path.cwd())
                 path.mkdir(parents=True, exist_ok=True)
-
+                
                 self.date_id = datetime.now().isoformat().replace(":", "-")
-                file_results_samples = directory_path.joinpath(
+                file_results_samples = path.joinpath(
                     f"samples_{task_name}_{self.date_id}.jsonl"
                 )
 
