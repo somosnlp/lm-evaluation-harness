@@ -226,11 +226,10 @@ class EvaluationTracker:
                 )
 
                 path = Path(self.output_path if self.output_path else Path.cwd())
-                path = path.joinpath(self.general_config_tracker.model_name_sanitized)
-                path.mkdir(parents=True, exist_ok=True)
+                directory_path = path.parent
+                os.makedirs(directory_path, exist_ok=True)
 
-                self.date_id = datetime.now().isoformat().replace(":", "-")
-                file_results_aggregated = path.joinpath(f"results_{self.date_id}.json")
+                file_results_aggregated = path
                 file_results_aggregated.open("w", encoding="utf-8").write(dumped)
 
                 if self.api and self.push_results_to_hub:
@@ -286,11 +285,12 @@ class EvaluationTracker:
             try:
                 eval_logger.info(f"Saving per-sample results for: {task_name}")
 
-                path = Path(self.output_path if self.output_path else Path.cwd())
-                path = path.joinpath(self.general_config_tracker.model_name_sanitized)
+                directory_path = os.path.dirname(self.output_path) if self.output_path else os.path.dirname(Path.cwd())
+                path = Path(directory_path if self.output_path else Path.cwd())
                 path.mkdir(parents=True, exist_ok=True)
 
-                file_results_samples = path.joinpath(
+                self.date_id = datetime.now().isoformat().replace(":", "-")
+                file_results_samples = directory_path.joinpath(
                     f"samples_{task_name}_{self.date_id}.jsonl"
                 )
 
