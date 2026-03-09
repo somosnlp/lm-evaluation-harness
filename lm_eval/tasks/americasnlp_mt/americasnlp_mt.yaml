@@ -1,0 +1,12 @@
+group: americasnlp_mt
+task:
+  - americasnlp-mt_esp-aym
+  - americasnlp-mt_esp-grn
+  - americasnlp-mt_esp-nhn
+  - americasnlp-mt_esp-que
+aggregate_metric_list:
+  - metric: bleu
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
